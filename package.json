@@ -1,0 +1,34 @@
+{
+  "name": "anycoder",
+  "version": "0.1.0",
+  "description": "Convert anything to string and vice versa",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc"
+  },
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varvolta/anycoder.git"
+  },
+  "keywords": [
+    "class",
+    "function",
+    "convert",
+    "string"
+  ],
+  "author": "Vahe Arzumanyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varvolta/anycoder/issues"
+  },
+  "homepage": "https://github.com/varvolta/anycoder#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.18"
+  }
+}
