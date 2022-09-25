@@ -1,6 +1,6 @@
 {
   "name": "anycoder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert anything to string and vice versa",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
