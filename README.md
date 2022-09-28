@@ -13,7 +13,7 @@ npm i anycoder
 
 # Usage
 ```js
-import AnyCoder from 'anycoder'
+import Anycoder from 'anycoder'
 
 // encode with
 const string = Anycoder.encode(Class)
