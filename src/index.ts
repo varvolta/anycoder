@@ -1,4 +1,4 @@
-class AnyCoder {
+class Anycoder {
     static encode(data: any, prefix?: string): string {
         function unicode_escape(c: string) {
             let s = c.charCodeAt(0).toString(16)
@@ -14,12 +14,12 @@ class AnyCoder {
                 const indent = prefix + '    ', pieces = []
                 if (data instanceof Array) {
                     for (i = 0; i < data.length; i++)
-                        pieces.push(AnyCoder.encode(data[i], indent))
+                        pieces.push(Anycoder.encode(data[i], indent))
                     before = '[\n'
                     after = ']'
                 } else {
                     for (i in data)
-                        pieces.push(i + ': ' + AnyCoder.encode(data[i], indent))
+                        pieces.push(i + ': ' + Anycoder.encode(data[i], indent))
                     before = '{\n'
                     after = '}'
                 }
@@ -52,4 +52,4 @@ class AnyCoder {
     }
 }
 
-export default AnyCoder
+export default Anycoder
